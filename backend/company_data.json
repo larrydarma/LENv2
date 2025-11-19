@@ -1,0 +1,79 @@
+{
+  "company": {
+    "name": "Acme Technologies S.A.",
+    "industry": "Hardware y Software",
+    "fiscal_year": 2025,
+    "currency": "MXN"
+  },
+  "products": [
+    {"id": "P001", "name": "SmartSensor X1", "category": "IoT", "price": 2499.00},
+    {"id": "P002", "name": "EdgeCompute 200", "category": "Servers", "price": 12999.00},
+    {"id": "P003", "name": "VisionCam Pro", "category": "Cámaras", "price": 4999.00},
+    {"id": "P004", "name": "SecureRouter G5", "category": "Networking", "price": 3999.00},
+    {"id": "P005", "name": "CloudBox Mini", "category": "Storage", "price": 7999.00},
+    {"id": "P006", "name": "BatteryPack 20k", "category": "Accesorios", "price": 1499.00},
+    {"id": "P007", "name": "AI Module Lite", "category": "Software", "price": 3499.00},
+    {"id": "P008", "name": "AI Module Pro", "category": "Software", "price": 6999.00},
+    {"id": "P009", "name": "Industrial Hub", "category": "IoT", "price": 15999.00},
+    {"id": "P010", "name": "RackMount 4U", "category": "Servers", "price": 2599.00}
+  ],
+  "inventory": [
+    {"product_id": "P001", "stock": 120},
+    {"product_id": "P002", "stock": 24},
+    {"product_id": "P003", "stock": 80},
+    {"product_id": "P004", "stock": 40},
+    {"product_id": "P005", "stock": 16},
+    {"product_id": "P006", "stock": 300},
+    {"product_id": "P007", "stock": 200},
+    {"product_id": "P008", "stock": 75},
+    {"product_id": "P009", "stock": 8},
+    {"product_id": "P010", "stock": 60}
+  ],
+  "monthly_sales": [
+    {"month": "2025-01", "revenue": 420000.00, "units_sold": 320},
+    {"month": "2025-02", "revenue": 380000.00, "units_sold": 290},
+    {"month": "2025-03", "revenue": 510000.00, "units_sold": 410},
+    {"month": "2025-04", "revenue": 470000.00, "units_sold": 360},
+    {"month": "2025-05", "revenue": 625000.00, "units_sold": 480},
+    {"month": "2025-06", "revenue": 540000.00, "units_sold": 415},
+    {"month": "2025-07", "revenue": 600000.00, "units_sold": 450},
+    {"month": "2025-08", "revenue": 575000.00, "units_sold": 430},
+    {"month": "2025-09", "revenue": 490000.00, "units_sold": 370},
+    {"month": "2025-10", "revenue": 650000.00, "units_sold": 510},
+    {"month": "2025-11", "revenue": 0.00, "units_sold": 0},
+    {"month": "2025-12", "revenue": 0.00, "units_sold": 0}
+  ],
+  "expenses": [
+    {"category": "Staff", "amount": 125000.00},
+    {"category": "Cloud Services", "amount": 45000.00},
+    {"category": "Marketing", "amount": 60000.00},
+    {"category": "R&D", "amount": 80000.00},
+    {"category": "Operations", "amount": 30000.00},
+    {"category": "Rent", "amount": 25000.00}
+  ],
+  "transactions": [
+    {"id":"T1001","date":"2025-01-05","product_id":"P001","units":5,"total":12495.00,"customer":"Distribuidor Norte"},
+    {"id":"T1002","date":"2025-01-08","product_id":"P002","units":1,"total":12999.00,"customer":"DataCenter Solutions"},
+    {"id":"T1003","date":"2025-01-11","product_id":"P003","units":3,"total":14997.00,"customer":"RetailCam SA"},
+    {"id":"T1004","date":"2025-02-02","product_id":"P001","units":10,"total":24990.00,"customer":"Distribuidor Norte"},
+    {"id":"T1005","date":"2025-03-22","product_id":"P007","units":20,"total":69980.00,"customer":"Labs AI"},
+    {"id":"T1006","date":"2025-04-15","product_id":"P005","units":2,"total":15998.00,"customer":"Cloud Partners"},
+    {"id":"T1007","date":"2025-05-30","product_id":"P008","units":5,"total":34995.00,"customer":"Enterprise AI"},
+    {"id":"T1008","date":"2025-06-12","product_id":"P006","units":50,"total":74950.00,"customer":"RetailCam SA"},
+    {"id":"T1009","date":"2025-07-02","product_id":"P009","units":1,"total":15999.00,"customer":"Industrial Co"},
+    {"id":"T1010","date":"2025-10-05","product_id":"P008","units":10,"total":69990.00,"customer":"Enterprise AI"}
+  ],
+  "customers": [
+    {"id":"C100","name":"Distribuidor Norte","country":"MX"},
+    {"id":"C101","name":"DataCenter Solutions","country":"US"},
+    {"id":"C102","name":"RetailCam SA","country":"MX"},
+    {"id":"C103","name":"Labs AI","country":"US"},
+    {"id":"C104","name":"Cloud Partners","country":"MX"},
+    {"id":"C105","name":"Enterprise AI","country":"US"},
+    {"id":"C106","name":"Industrial Co","country":"MX"}
+  ],
+  "notes": {
+    "last_update": "2025-10-10",
+    "comments": "Datos ficticios para pruebas. Ventas proyectadas y muestras transaccionales."
+  }
+}

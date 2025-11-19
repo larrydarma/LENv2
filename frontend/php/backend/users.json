@@ -1,0 +1,50 @@
+[
+    {
+        "id": "691498c145c5a",
+        "username": "yosrl",
+        "email": "yosrl@gmail.com",
+        "password": "$2y$12$j9UNZeIItz4Lx9vS5gCDGupHGvJKQm\/BYfLXDgkwbpZutmFtlut56",
+        "rol": "admin",
+        "created_at": "2025-11-12 14:25:05"
+    },
+    {
+        "id": 691499,
+        "username": "david",
+        "email": "david@joto.com",
+        "password": "$2y$12$at1zjzaAcEEF.9eZLBs.meEtcQh\/9xOf\/cE801ZEVuUfCNH0fprwy",
+        "rol": "admin",
+        "created_at": "2025-11-12 14:43:47"
+    },
+    {
+        "id": "69149e553bcfa",
+        "username": "pepe",
+        "email": "pepe@jose.com",
+        "password": "$2y$12$SX7fKsOx0owRBkzfL8P5..T9YCnTWhh5kQtO5LSLzpZXaWhGpHyIC",
+        "rol": "usuario",
+        "created_at": "2025-11-12 14:48:53"
+    },
+    {
+        "id": "6914ae46233bf",
+        "username": "liam",
+        "email": "ceronrodric@gmail.com",
+        "password": "$2y$12$NnOJDWhLBon2BuVqtHis2OI8JpRLYwdejqNQmEaWeq2x22fff452K",
+        "rol": "usuario",
+        "created_at": "2025-11-12 15:56:54"
+    },
+    {
+        "id": "6914ba3cc63ce",
+        "username": "Chinga tu madre larry",
+        "email": "puto@gmail.com",
+        "password": "$2y$12$PrqJIB2Pjx3CXQ5YRGY8juboZeXyzfOkx2\/Cp2omhqjE6kW7.HnX2",
+        "rol": "usuario",
+        "created_at": "2025-11-12 16:47:56"
+    },
+    {
+        "id": "6916125954abd",
+        "username": "dulce",
+        "email": "dul@gmail.com",
+        "password": "$2y$12$PJj0vVSl4JbAQ.0Q9utbjOq9DFBxsCW.4V.ZSoZuXCV2h\/fZOSFNC",
+        "rol": "usuario",
+        "created_at": "2025-11-13 17:16:09"
+    }
+]

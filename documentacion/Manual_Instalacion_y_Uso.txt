@@ -1,0 +1,25 @@
+
+MANUAL DE INSTALACIÓN Y USO - IA GESTORA DE DATOS
+
+ INSTALACIÓN
+- Instalar Python: brew install python
+- Instalar Docker Desktop: https://www.docker.com/products/docker-desktop
+- Clonar el proyecto o descomprimir el ZIP.
+
+ EJECUCIÓN CON DOCKER
+- Abrir una terminal en la carpeta raíz del proyecto.
+- Ejecutar: docker-compose up --build
+- El backend estará disponible en: http://localhost:8000
+- El frontend en: http://localhost:3000
+
+ESTRUCTURA DEL PROYECTO
+IA_Gestor_Datos/
+│
+├── backend/ → API con FastAPI y lógica de IA
+├── frontend/ → Interfaz de usuario con React
+├── documentacion/ → Manual y guías
+└── docker-compose.yml → Orquestación de contenedores
+
+ OBJETIVO
+Este proyecto permite a empresas gestionar y consultar información de forma inteligente,
+con una IA que responde en tiempo real según el tipo de usuario y su base de datos.

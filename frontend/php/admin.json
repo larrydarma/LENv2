@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "usuario": "admin",
+    "password": "1234",
+    "rol": "admin",
+    "activo": true
+  },
+  {
+    "id": 2,
+    "usuario": "david",
+    "password": "abcd",
+    "rol": "usuario",
+    "activo": true
+  },
+  {
+    "id": 3,
+    "usuario": "maria",
+    "password": "5678",
+    "rol": "usuario",
+    "activo": false
+  }
+]
